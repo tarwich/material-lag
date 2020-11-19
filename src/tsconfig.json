@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "checkJs": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "jsx": "react",
+    "lib": [
+      "DOM",
+      "ESNext"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
