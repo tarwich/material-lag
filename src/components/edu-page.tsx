@@ -12,7 +12,7 @@ export const EduPage = (props: EduPageProps) => {
 
   return (
     <VBox {...restProps}>
-      {header && <Typography>{header}</Typography>}
+      {header && <Typography variant="h4">{header}</Typography>}
       {children}
     </VBox>
   );

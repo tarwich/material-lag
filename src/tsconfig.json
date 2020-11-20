@@ -1,16 +1,9 @@
 {
+  "extends": "../tsconfig.json",
   "compilerOptions": {
-    "module": "commonjs",
-    "checkJs": true,
     "strictNullChecks": true,
-    "noImplicitAny": false,
-    "jsx": "react",
-    "lib": [
-      "DOM",
-      "ESNext"
-    ]
+    "noImplicitAny": true,
+    "lib": ["ESNext"]
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

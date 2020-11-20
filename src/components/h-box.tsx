@@ -8,7 +8,16 @@ export const HBox = (props: HBoxProps) => {
   const theme = useTheme();
 
   if (grid) {
-    return <Box display="grid"></Box>;
+    return (
+      <Box
+        display="grid"
+        gridAutoFlow="column"
+        gridGap={theme.spacing(2)}
+        {...restProps}
+      >
+        {children}
+      </Box>
+    );
   }
 
   return (
